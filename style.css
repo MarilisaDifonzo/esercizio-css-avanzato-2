@@ -9,21 +9,18 @@ h1{
 }
 
 h2{
-    color:  rgb(22, 28, 200);
+    color: rgb(107, 143, 254);
 }
 
 .logo{
     width: 50px;
 }
 
-nav{
-    background-color: blue;
+.navbar{
+    background-color: rgb(107, 143, 254);
     display: flex;
-    align-items: center;
-    height: 60px;
-    position: fixed;
-    top: 0px;
-    width: 100%;
+    z-index: 999;
+ 
 }
 
 nav ul{
@@ -33,11 +30,11 @@ nav ul{
 }
 
 nav li:hoover{
-border-bottom: 1px solid lightblue;
+border-bottom: 1px solid white;
 }
 
-a{
-    color:lightblue;
+.navbar a{
+    color:white;
     text-decoration: none;
     list-style: none;
 }
@@ -50,7 +47,7 @@ a{
 }
 
 article{
-    background-color: lightskyblue;
+    background-color: white;
     height: 500px;
     width: 600px;
     transition: 0.6s;
@@ -61,7 +58,7 @@ article{
 }
 
 article:hover{
-    background-color: blue;
+    background-color:rgb(107, 143, 254) ;
 }
 
 article img{
@@ -89,8 +86,8 @@ article button{
 }
 
 footer{
-    background-color: rgb(62, 62, 233);
-    color: lightblue;
+    background-color: rgb(107, 143, 254);
+    color: white;
     min-height: 200px;
     display: flex;
     align-items: center;
@@ -133,4 +130,23 @@ footer{
     padding: 10px;
 }
 
+.carousel {
+    width: 90%;
+}
+
+.accordion{
+    width: 90%;
+}
+}
+
+.carousel{
+    width: 40%;
+}
+
+.accordion{
+    width: 40%;
+}
+
+.accordion-button:focus, .accordion-body{
+    background-color: rgb(107, 143, 254);
 }
